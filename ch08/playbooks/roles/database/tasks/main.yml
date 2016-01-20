@@ -4,7 +4,7 @@
   sudo: True
   with_items:
     - libpq-dev
-    - postgresql
+    - postgresql-9.3
     - python-psycopg2
 - name: copy configuration file
   copy: >
